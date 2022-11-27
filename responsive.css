@@ -1,0 +1,855 @@
+@media only screen and (max-width: 1124px) {
+
+/*-- Header --*/
+
+.header_site_templ > .col_3 {
+    width: 195px;
+}
+
+.header_site_templ > .col_2 {
+    width: calc(100% - 385px);
+}
+
+.header_site_templ > .col_4 {
+    width: 55px;
+}
+
+.main_nav li a {
+    font-size: 12px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main --*/
+
+.important_thumbs {
+    margin: 15px -15px;
+}
+
+.important_thumb {
+    width: calc(33.33% - 30px);
+    margin: 10px 15px;
+    padding-left: 40px;
+}
+
+/*-- /Section 2 - Main --*/
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+.wrapper {
+	padding-top: 40px;
+}
+
+/*-- Header --*/
+
+.header_site {
+	width: 100%;
+	z-index: 8;
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+.header_site_templ > .col_2 {
+    width: 0;
+    padding: 0;
+}
+
+.header_site_templ > .col_3 {
+    width: calc(100% - 334px);
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header_site_templ > .col_5 {
+    display: flex;
+    justify-content: flex-end;
+    width: 124px;
+}
+
+.search_wrapp {
+	max-width: 400px;
+}
+
+#resp_nav {
+	/*display: block;*/
+	display: none;
+	max-width: 100vw;
+	width: 100vw;
+	height: calc(100vh - 39px);
+    overflow-x: hidden;
+	overflow-y: auto;
+	margin: 0;
+	padding: 21px 48px 85px 10px;
+	position: fixed;
+	top: 39px;
+	left: 0;
+	z-index: 13;
+	background: rgba(0, 0, 0, .8);
+	backdrop-filter: blur(5px);
+}
+
+.main_nav {
+	display: block;
+	padding-left: 25px;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.main_nav {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+
+.main_nav::-webkit-scrollbar {
+    width: 4px;
+}
+
+.main_nav::-webkit-scrollbar-track {
+    background: #3E3E3E;
+}
+
+.main_nav::-webkit-scrollbar-thumb {
+    background-color: #00755F;
+    border-radius: 3px;
+    border: none;
+}
+
+.main_nav li {
+	width: 100%;
+	padding: 17px 0;
+}
+
+.main_nav li a {
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.resp_menu_btn {
+	display: flex;
+	display: -webkit-flex;
+	width: 82px;
+	cursor: pointer;
+	position: relative;
+	top: -5px;
+}
+
+.resp_menu_btn > div:nth-child(1) {
+	width: calc(100% - 27px);
+	padding-top: 10px;
+    padding-right: 11px;
+}
+
+.resp_menu_btn > div:nth-child(2) {
+	width: 27px;
+}
+
+.resp_menu_btn p {
+	font-size: 15px;
+	line-height: 100%;
+	color: #F4F5F9;
+}
+
+/*-- /Header --*/
+
+/*-- Section 2 - Main --*/
+
+.important_thumbs {
+    margin: 15px 0;
+    padding: 8px 0 8px 15px;
+}
+
+.important_thumb {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.important_thumb p {
+    font-size: 15px;
+}
+
+/*-- /Section 2 - Main --*/
+
+}
+
+
+@media only screen and (max-width: 900px) {
+
+/*-- Section 2 - Available Numbers --*/
+
+.table_2 .table_row .cell:nth-child(1) {
+    width: 200px;
+}
+
+.table_2 .table_row .cell:nth-child(2) {
+    width: calc(100% - 445px);
+}
+
+/*-- .Section 2 - Available Numbers --*/
+
+/*-- Footer --*/
+
+.seo_box_section > div:nth-child(1) {
+    width: calc(100% - 130px);
+}
+
+.seo_box_section > div:nth-child(2) {
+    width: 130px;
+}
+
+/*-- /Footer --*/
+
+}
+
+@media only screen and (max-width: 767px) {
+
+h1 {
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.row {
+    padding: 0 15px;
+}
+
+/*-- Header --*/
+
+.header_site > .row {
+    padding: 0 10px;
+}
+
+.header_site_templ > .col_3 {
+	display: none;
+}
+
+.header_site_templ > .col_4 {
+    width: calc(100% - 259px);
+}
+
+.header_site_templ {
+    padding: 6px 0 6px 0;
+}
+
+#resp_nav {
+    height: calc(100vh - 41px);
+    top: 41px;
+}
+
+.search_bottom {
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-bottom: 40px;
+}
+
+.search_wrapp_2 {
+	max-width: 280px;
+	margin: 0 auto;
+}
+
+/*-- /Header --*/
+
+/*-- Section 1 - Main --*/
+
+.white_box {
+    padding: 0 17px;
+}
+
+.white_box_inner {
+    padding: 26px 0 30px 0;
+}
+
+/*-- /Section 1 - Main --*/
+
+/*-- Section 1 - Number --*/
+
+.number_title h1 {
+    font-size: 25px;
+    line-height: 40px;
+}
+
+.resp_important_thumbs {
+    margin: 0;
+    padding: 2px 0 8px 15px;
+}
+
+.inlines_1 {
+    padding: 5px 0 0 0;
+}
+
+/*-- /Section 1 - Number --*/
+
+/*-- Section 2 - Number --*/
+
+.table .table_row {
+    padding: 0 10px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+}
+
+.table .table_row > .cell:nth-child(1) {
+    width: 50%;
+    padding: 13px 10px 13px 0;
+}
+
+.table .table_row > .cell:nth-child(2) {
+    width: 100%;
+   	padding: 1px 0 16px 0;
+    order: 3;
+}
+
+.table .table_row > .cell:nth-child(3) {
+    width: 50%;
+    padding: 13px 0 13px 10px;
+    text-align: right;
+}
+
+.table .table_row.table_header > .cell:nth-child(1) {
+    width: 50%;
+    padding: 13px 10px 13px 0;
+}
+
+.table .table_row.table_header > .cell:nth-child(2) {
+    width: 50%;
+    padding: 13px 0 13px 10px;
+}
+
+/*-- /Section 2 - Number --*/
+
+/*-- Section 2 - Available Numbers --*/
+
+.table_2 {
+    margin: 0 -16px 0 -16px;
+}
+
+.table_2 .table_row {
+    padding: 0 10px;
+}
+
+/*-- /Section 2 - Available Numbers --*/
+
+/*-- Section 1 - Country --*/
+
+.resp_country_descript {
+	text-align: center;
+}
+
+.resp_country_descript p {
+	font-size: 16px;
+	line-height: 24px;
+	color: #000;
+}
+
+.resp_country_descript p b {
+	font-weight: 600;
+}
+
+.important_thumbs.important_thumbs_2 {
+    padding: 8px 0 4px 22px;
+}
+
+.important_thumbs_2 .important_thumb {
+    margin: 8px 0;
+}
+
+/*-- /Section 1 - Country --*/
+
+/*-- Section 2 - Country --*/
+
+.white_box_3 {
+	padding: 0;
+}
+
+.table_3 {
+    margin: 0;
+}
+
+.table_3 .table_row {
+    padding: 0 13px;
+    flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+ }
+
+.table_3 .table_row.table_header .cell:nth-child(3) {
+	display: none;
+}
+
+.table_3 .table_row.table_header .cell:nth-child(4) {
+	display: none;
+}
+
+.table_3 .table_row .cell:nth-child(1) {
+    width: 35%;
+    padding: 13px 10px 13px 0;
+}
+
+.table_3 .table_row .cell:nth-child(2) {
+    width: 65%;
+    padding: 13px 0 13px 10px;
+    text-align: right;
+}
+
+.table_3 .table_row .cell:nth-child(3) {
+    width: 100%;
+    padding: 0 0 7px 0;
+    text-align: center;
+}
+
+.table_3 .table_row .cell:nth-child(4) {
+    width: 100%;
+    padding: 12px 0 15px 0;
+    text-align: center;
+}
+
+/*-- /Section 2 - Country --*/
+
+/*-- Footer --*/
+
+.novisible_767 {
+	display: none;
+}
+
+.visible_767 {
+    display: block;
+}
+
+.footer_two_cols > div:nth-child(1) {
+    width: 100%;
+    padding: 10px 0;
+}
+
+.seo_box_section {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+}
+
+.seo_box_section > div:nth-child(1) {
+    width: 100%;
+    padding-bottom: 30px;
+}
+
+.seo_box_section > div:nth-child(2) {
+    width: calc(100% - 180px);
+}
+
+.col_3_resp {
+	width: 180px;
+	display: flex;
+	display: -webkit-flex;
+	justify-content: flex-end;
+	-webkit-justify-content: flex-end;
+}
+
+.seo_lists_inline > div {
+    width: 80px;
+}
+
+/*-- /Footer --*/
+
+/*-- Popup --*/
+
+.popup_content {
+    padding: 29px 25px 33px 25px;
+    border: 1px solid #3E3E3E;
+}
+
+.popup_title {
+    padding: 0 0 21px 0;
+}
+
+.langs_cols {
+    margin: 0;
+    max-height: 238px;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.langs_cols {
+    scrollbar-width: thin;
+    scrollbar-color: blue orange;
+}
+
+.langs_cols::-webkit-scrollbar {
+    width: 4px;
+}
+
+.langs_cols::-webkit-scrollbar-track {
+    background: #3E3E3E;
+}
+
+.langs_cols::-webkit-scrollbar-thumb {
+    background-color: #00755F;
+    border-radius: 3px;
+    border: none;
+}
+
+.langs_cols > div {
+    width: 100%;
+    padding: 0;
+}
+
+.popup_content .close_popup {
+    top: 22px;
+    right: 16px;
+}
+
+.popup_content_2 {
+    padding: 35px 20px 25px 20px;
+}
+
+.popup_title_2 {
+    margin: 15px auto;
+}
+
+.popup_title_2 h3 {
+    font-size: 25px;
+    line-height: 32px;
+}
+
+.popup_title_2_descript {
+    margin: 15px auto;
+}
+
+/*-- /Popup --*/
+
+}
+
+@media only screen and (max-width: 700px) {
+
+/*-- Section 2 - Available Numbers --*/
+
+.table_2 .table_row {
+	flex-wrap: wrap;
+	-webkit-flex-wrap: wrap;
+	padding-top: 3px;
+}
+
+.table_2 .table_row.table_header .cell:nth-child(1) {
+    width: 35%;
+}
+
+.table_2 .table_row.table_header .cell:nth-child(2) {
+    width: 65%;
+    text-align: right;
+    padding: 15px 0 15px 10px;
+}
+
+.table_2 .table_row.table_header .cell:nth-child(3) {
+	display: none;
+}
+
+.table_2 .table_row .cell:nth-child(1) {
+    width: 50%;
+}
+
+.table_2 .table_row .cell:nth-child(2) {
+    width: 50%;
+    text-align: right;
+    padding: 15px 0 15px 10px;
+}
+
+.table_2 .table_row .cell:nth-child(3) {
+    width: 100%;
+    padding: 3px 0 15px 0;
+    text-align: center;
+}
+
+/*-- /Section 2 - Available Numbers --*/
+
+}
+
+@media only screen and (max-width: 600px) {
+
+/*-- Section 3 - Main --*/
+
+.country_title {
+    padding: 18px 0 0 0;
+}
+
+.numbers_thumbnails {
+    margin: 5px -7px 11px -7px;
+}
+
+/*-- /Section 3 - Main --*/
+
+/*-- Section 2 - Number --*/
+
+.table_title > div:nth-child(1) {
+    width: 100%;
+    padding: 20px 0 7px 0;
+}
+
+.table_title > div:nth-child(2) {
+    width: 100%;
+    text-align: left;
+    padding: 10px 0;
+}
+
+/*-- /Section 2 - Number --*/
+
+/*-- Section 1 - Available Numbers --*/
+
+.white_box_inner_3 {
+    padding: 26px 0 27px 0;
+}
+
+.h1_wrapp.h1_wrapp_2 h1 {
+    padding: 13px 0;
+}
+
+.h1_descript.h1_descript_2 p {
+    padding: 12px 0;
+}
+
+/*-- /Section 1 - Available Numbers --*/
+
+/*-- Section 2 - Available Numbers --*/
+
+.country_title_2 {
+    padding: 0;
+}
+
+/*-- /Section 2 - Available Numbers --*/
+
+/*-- Section 1 - Country --*/
+
+.white_box_2 {
+    padding: 9px 15px;
+}
+
+/*-- /Section 1 - Country --*/
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+.row {
+    padding: 0 10px;
+}
+
+/*-- Section 3 - Main --*/
+
+.numbers_thumbnails {
+	justify-content: center;
+	margin: 5px 0 11px 0;
+}
+
+.number_thumbnail {
+	width: 100%;
+	min-width: 100%;
+	max-width: 300px;
+}
+
+.more_numbers {
+	margin-top: 16px;
+}
+
+.numbers_thumbnails_inlines_sect {
+    margin: 15px -7px 0 -7px;
+}
+
+.numbers_thumbnails_inline {
+    padding: 3px 7px 4px 7px;
+}
+
+/*-- /Section 3 - Main --*/
+
+/*-- Section 4 - Main --*/
+
+.article {
+    padding: 33px 0 33px 0;
+}
+
+.article p + h2 {
+    padding-top: 16px;
+}
+
+.article h2 + p {
+    padding-top: 37px;
+}
+
+.article ul {
+    padding: 63px 0 33px 18px;
+}
+
+.share_box {
+    padding-bottom: 35px;
+}
+
+/*-- /Section 4 - Main --*/
+
+/*-- Section 1 - Number --*/
+
+.number_box {
+    padding: 28px 0 11px 0;
+}
+
+.inlines_2 {
+    margin: 3px auto;
+    max-width: 300px;
+}
+
+.inlines_2 > div {
+	width: 100%;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.inlines_2 > div .grey_pill {
+	width: 100%;
+}
+
+/*-- /Section 1 - Number --*/
+
+/*-- Section 2 - Available Numbers --*/
+
+.article {
+    padding: 44px 0 33px 0;
+}
+
+/*-- /Section 2 - Available Numbers --*/
+
+/*-- Footer --*/
+
+.footer_two_cols {
+    margin: 32px auto 20px auto;
+}
+
+.seo_box_section h3 {
+    font-size: 13px;
+}
+
+/*-- /Footer --*/
+	
+}
+
+@media only screen and (max-width: 400px) {
+
+/*-- Section 2 - Number --*/
+
+.table {
+    margin: 9px -16px;
+}
+
+.table_title > div:nth-child(2) .grey_pill {
+	width: 100%;
+}
+
+.pagination_wrapp {
+    padding: 5px 0 16px 0;
+}
+
+/*-- /Section 2 - Number --*/
+
+}
+
+@media only screen and (max-width: 360px) {
+
+/*-- Header --*/
+
+.header_site_templ > .col_4 {
+    width: calc(100% - 235px);
+}
+
+.header_site_templ > .col_5 {
+    width: 100px;
+}
+
+/*-- /Header --*/
+
+}
+
+@media only screen and (max-width: 350px) {
+
+.breadcrumbs li a {
+    font-size: 13px;
+}
+
+/*-- Header --*/
+
+.search_wrapp_2 {
+    max-width: 245px;
+}
+
+/*-- /Header --*/
+
+/*-- Section 3 - Main --*/
+
+.number_thumbnail {
+    padding: 5px 15px 0 15px;
+}
+
+.number_thumbnail_footer {
+    margin: 7px -5px 5px -5px;
+}
+
+.number_thumbnail_footer > div {
+    padding: 5px 5px;
+}
+
+.number_val p {
+    font-size: 15px;
+}
+
+.more_numbers p {
+    font-size: 14px;
+}
+
+/*-- /Section 3 - Main --*/
+
+/*-- Section 4 - Main --*/
+
+.share_list li {
+    padding: 8px 8px;
+}
+
+/*-- /Section 4 - Main --*/
+
+/*-- Section 2 - Number --*/
+
+.number_title h1 {
+    font-size: 22px;
+}
+
+/*-- /Section 2 - Number --*/
+
+/*-- Section 2 - Number --*/
+
+.table p {
+    font-size: 14px;
+}
+
+.table a {
+    font-size: 14px;
+}
+
+.pagination li {
+    min-width: 26px;
+}
+
+.pagination li a {
+    min-width: 24px;
+    padding: 0 2px;
+}
+
+/*-- /Section 2 - Number --*/
+
+}
+
+@media only screen and (min-width: 1025px) {
+
+	/*-- Header --*/
+
+	#resp_nav {
+		display: block !important;
+	}
+
+	/*-- /Header --*/
+
+}
